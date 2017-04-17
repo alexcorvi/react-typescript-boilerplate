@@ -25,4 +25,7 @@ This boilerplate assumes that you'll use Sass for styling and MobX for state man
 - Serve the `dist` directory in lite-server: `npm run serve`.
 - Build for development and serve the dist directory: `npm run start`.
 
+## License
+
+The MIT License.
 
