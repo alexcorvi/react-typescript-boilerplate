@@ -1,14 +1,20 @@
-# React & TypeScript Boilerplate
+# React, MobX & TypeScript Boilerplate
+
+## Somewhat opinionated
+
+This boilerplate assumes that you'll use Sass for styling and MobX for state management.
 
 ## What's inside?
 
-- Webpack configuration
+- MobX usage demonstration.
+- Styling components with Sass.
+- Webpack configuration:
 	- TypeScript with `ts-loader`
-	- SCSS with`scss-loader` (extracted in a separate file)
-	- HTML with `raw-loader` (extracted in a separate file)
-	- Production specific configurations
-- TypeScript compiler configuration
-- TSLint configuration
+	- SCSS with`scss-loader` (extracted in a separate file).
+	- HTML with `raw-loader` (extracted in a separate file).
+	- Production specific configurations.
+- TypeScript compiler configuration.
+- TSLint configuration.
 - Lite-Server, for auto reloading on update.
 
 ## Usage
