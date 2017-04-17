@@ -1,0 +1,14 @@
+$pri: #eeffcc;
+$sec: red;
+
+.main-component {
+	span {
+		background: $pri;
+		color: $sec;
+	}
+	.demo {
+		border: 1px solid #111111;
+		margin: 15px;
+		padding:18px;
+	}
+}
