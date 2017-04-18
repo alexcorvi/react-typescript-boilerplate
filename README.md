@@ -6,6 +6,7 @@ This boilerplate assumes that you'll use Sass for styling and MobX for state man
 
 ## What's inside?
 
+- Sample temperature conversion component
 - MobX usage demonstration.
 - Styling components with Sass.
 - Webpack configuration:

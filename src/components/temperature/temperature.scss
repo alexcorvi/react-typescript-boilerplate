@@ -1,0 +1,19 @@
+$pri: #eeffcc;
+$sec: red;
+
+.temperature {
+	text-align: center;
+	padding: 15px;
+	input, select {
+		margin-left:10px;
+	}
+	div {
+		padding:5px;
+	}
+	.result {
+		margin-top:18px;
+		display: inline-block;
+		color: #FAFAFA;
+		background: #009688;
+	}
+}

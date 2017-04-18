@@ -5,10 +5,9 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 
 
-import { MainComponent } from './components/main/main.component';
-import { observable, computed} from 'mobx';
+import { Temperature } from './components/temperature/temperature';
 
 ReactDOM.render(
-	<MainComponent welcome={"Alex"} />,
+	<Temperature demoTitle="Temperature convertor" />,
 	document.getElementById('root')
 );
