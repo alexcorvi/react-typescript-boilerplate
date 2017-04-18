@@ -4,10 +4,11 @@ import "./style.scss";
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-
-import { Temperature } from './components/temperature/temperature';
+import { Main } from './components/main/main';
+import { Notes } from "./notes";
+const notes = new Notes();
 
 ReactDOM.render(
-	<Temperature demoTitle="Temperature convertor" />,
+	<Main notes={notes} />,
 	document.getElementById('root')
 );
