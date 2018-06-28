@@ -13,7 +13,9 @@
 		"newLine": "LF",
 		"noImplicitThis": true,
 		"noUnusedParameters": true,
-		"pretty": true
+		"pretty": true,
+		"strictPropertyInitialization": true,
+		"strict": true
 	},
 	"include": [
 		"./src/**/*"

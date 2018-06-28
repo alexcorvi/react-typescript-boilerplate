@@ -3,17 +3,16 @@ import { observable, computed } from 'mobx';
 export interface Note {
 	text: string;
 	done: boolean;
-};
-
+}
 
 export class Notes {
-
-	@observable currentFilter: "active" | "completed" | "all" = "all";
+	@observable currentFilter: 'active' | 'completed' | 'all' = 'all';
 
 	@observable notes: Note[] = [];
 
-	@computed get active(): Note[] {
-		return this.notes.filter(note => note.done === false);
+	@computed
+	get active(): Note[] {
+		return this.notes.filter((note) => note.done === false);
 	}
 
 	addNote(note: Note) {
@@ -25,7 +24,7 @@ export class Notes {
 	}
 
 	toggleCompleted(index: number) {
-		this.notes[index].done ? this.notes[index].done = false : this.notes[index].done = true;
+		this.notes[index].done ? (this.notes[index].done = false) : (this.notes[index].done = true);
 	}
 
 	updateText(index: number, text: string) {
@@ -33,6 +32,6 @@ export class Notes {
 	}
 
 	clearCompleted() {
-		this.notes = this.notes.filter(note => note.done === false);
+		this.notes = this.notes.filter((note) => note.done === false);
 	}
 }

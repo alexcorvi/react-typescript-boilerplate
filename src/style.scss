@@ -45,8 +45,7 @@ input[type="checkbox"] {
 	background: #fff;
 	margin: 130px 0 40px 0;
 	position: relative;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
-	            0 25px 50px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
 .todoapp input::-webkit-input-placeholder {
@@ -98,19 +97,17 @@ label[for='toggle-all'] {
 	color: #737373;
 }
 
-
 .todo-list {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-
 /*
 	Hack to remove background from Mobile Safari.
 	Can't use it globally since it destroys checkboxes in Firefox
 */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
 	.toggle-all,
 	.todo-list li .toggle {
 		background: none;
